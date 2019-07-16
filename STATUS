@@ -1,0 +1,25 @@
+INPUT
+   DECLARE;
+VAR A;
+VAR B;
+VAR C;
+VAR D;
+SUM;
+AVG;
+STATUS;
+
+--------------------------------------------------
+
+PROCESS
+
+SUM = A+B+C+D;
+AVG = SUM/4;
+
+IF GRADE >=60
+{STATUS=APPROVED}
+ELS{STATUS =FAILED} 
+
+------------------------------------------
+OUTPUT
+
+PRINT STATUS
