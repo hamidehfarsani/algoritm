@@ -1,0 +1,12 @@
+input;
+declare;
+var length;
+var width;
+var area;
+----------------------------------------------------------
+process;
+area=lengtht*width;
+-------------------------------------------------------------
+output;
+print area
+
