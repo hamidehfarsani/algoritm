@@ -1,0 +1,11 @@
+input;
+var height;
+var base;
+var sum;
+-------------------------------------------------
+process;
+sum=(height*base);
+area=sum/2;
+------------------------------------
+output;
+print output
